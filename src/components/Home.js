@@ -127,11 +127,11 @@ function Home() {
     </Row>
   </Container>
   </center>
-<div class="container reveal">
+<div class="container">
   <section class="text-center mt-5">
-    <h4 class="mb-4"><strong>Pricing</strong></h4>
+    <h4 class="mb-4 reveal"><strong>Pricing</strong></h4>
     <div class="row gx-lg-5">
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 reveal">
         <div class="card" style={{borderColor: '#fb8500'}}>
           <div class="card-header bg-white py-3">
             <p class="text-uppercase small mb-2"><strong>General Repairs</strong></p>
@@ -148,7 +148,7 @@ function Home() {
         
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 reveal">
         <div class="card" style={{borderColor: '#fb8500'}}>
           <div class="card-header bg-white py-3">
             <p class="text-uppercase small mb-2"><strong>Painting</strong></p>
@@ -164,7 +164,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 reveal">
         <div class="card" style={{borderColor: '#fb8500'}}>
           <div class="card-header bg-white py-3">
             <p class="text-uppercase small mb-2"><strong>Plumbing</strong></p>
@@ -180,7 +180,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 mb-4">
+      <div class="col-lg-3 col-md-6 mb-4 reveal">
         <div class="card" style={{borderColor: '#fb8500'}}>
           <div class="card-header bg-white py-3">
             <p class="text-uppercase small mb-2"><strong>Electric</strong></p>

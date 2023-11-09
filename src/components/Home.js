@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Container, Row}from 'react-bootstrap';
+import {Card, Container, Row, Button}from 'react-bootstrap';
 import toolsBackground from "../images/background.jpg";
 // import {MDBCarousel, MDBCarouselItem, MDBCarouselCaption} from 'mdb-react-ui-kit';
 
@@ -26,14 +26,17 @@ function Home() {
   <div class="px-4 py-5 px-md-5 text-center text-lg-start" style={{height: "700px", background: 'url(' + toolsBackground + ')'}}>
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
-        <div class="col-lg-6 mb-5 mb-lg-0 slideInLeft" style={{marginTop: '100px'}}>
+        <div class="col-lg-6 mb-5 mb-lg-0 slideInLeft" style={{marginTop: '50px'}}>
           <h1 class="my-5 display-3 fw-bold ls-tight" style={{color: '#ffb703'}}>
-            The best offer <br />
-            <span style={{color: '#fb8500'}}>for your business</span> <br />
-          </h1>
-          <h3>
-          <span style={{color: '#fb8500'}}>Call Us 555-555-5555</span>
-          </h3>
+          "Your Home, <br />
+            <span style={{color: '#fb8500'}}>Our Expertise"</span> <br />
+          </h1>          
+          <Button
+          className="float-right button-pop-out"
+          style={{ backgroundColor: '#fb8500', borderColor: '#fb8500', color: 'black', fontSize: '25px' }}
+        >
+          Call Us
+        </Button>         
         </div>
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="">
@@ -46,7 +49,7 @@ function Home() {
   </div>
 </section>
 <center>
-<Container className="slideInRight" style={{marginTop: '-100px'}}>
+<Container className="slideInRight" style={{marginTop: '-220px'}}>
   <Row className="d-flex flex-wrap justify-content-center">
     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
@@ -244,8 +247,8 @@ function Home() {
             <p class="text-muted mb-4">Owner <span class="mx-2">|</span>
                 Handyman Template</p>
             <center>
-            <button type="button" class="btn btn-rounded btn-lg" style={{maxWidth: '200px', backgroundColor: '#fb8500'}}>
-              Contact Us!
+            <button type="button" class="btn btn-rounded btn-lg button-pop-out" style={{maxWidth: '200px', backgroundColor: '#fb8500'}}>
+              Contact Us
             </button>
             </center>
             <div class="d-flex justify-content-between text-center mt-5 mb-2 mx-5">

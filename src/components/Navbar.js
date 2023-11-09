@@ -8,7 +8,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function NavbarComponent() {
     const navbarStyle = {
-        backgroundColor: "#8ecae6",
+        backgroundColor: "#ffb703",
         opacity: '0.8',
         position: 'fixed',       
         width: '100%',

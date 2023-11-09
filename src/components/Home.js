@@ -4,13 +4,29 @@ import toolsBackground from "../images/background.jpg";
 // import {MDBCarousel, MDBCarouselItem, MDBCarouselCaption} from 'mdb-react-ui-kit';
 
 function Home() {
+  function reveal() {
+    var reveals = document.querySelectorAll(".reveal");
+  
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+  
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.add("active");
+      } else {
+        reveals[i].classList.remove("active");
+      }
+    }
+  }  
+  window.addEventListener("scroll", reveal);
   return (
     <div>
 <section class="">
   <div class="px-4 py-5 px-md-5 text-center text-lg-start" style={{height: "700px", background: 'url(' + toolsBackground + ')'}}>
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
-        <div class="col-lg-6 mb-5 mb-lg-0" style={{marginTop: '200px'}}>
+        <div class="col-lg-6 mb-5 mb-lg-0 slideInLeft" style={{marginTop: '100px'}}>
           <h1 class="my-5 display-3 fw-bold ls-tight" style={{color: '#ffb703'}}>
             The best offer <br />
             <span style={{color: '#fb8500'}}>for your business</span> <br />
@@ -30,7 +46,7 @@ function Home() {
   </div>
 </section>
 <center>
-<Container style={{marginTop: '-100px'}}>
+<Container className="slideInRight" style={{marginTop: '-100px'}}>
   <Row className="d-flex flex-wrap justify-content-center">
     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
@@ -111,7 +127,7 @@ function Home() {
     </Row>
   </Container>
   </center>
-<div class="container">
+<div class="container reveal">
   <section class="text-center mt-5">
     <h4 class="mb-4"><strong>Pricing</strong></h4>
     <div class="row gx-lg-5">
@@ -189,7 +205,7 @@ function Home() {
         height: "300px",
         marginBottom: "-150px"}}></div>
   <div class="row">
-    <div class="col-md-6">
+    <div class="col-md-6 reveal">
       <div class="card mx-4 mx-md-5 shadow-5-strong mt-5" style={{
           background: "hsla(0, 0%, 100%, 0.8)",
           backdropFilter: "blur(30px)",
@@ -213,7 +229,7 @@ function Home() {
       </div>
     </div>
 
-    <div class="col-md-6">
+    <div class="col-md-6 reveal">
       <div class="card mx-4 mx-md-5 shadow-5-strong mt-5" style={{
           background: "hsla(0, 0%, 100%, 0.8)",
           backdropFilter: "blur(30px)",

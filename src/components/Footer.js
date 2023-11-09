@@ -1,7 +1,7 @@
 function Footer() {
     return (       
         <div>
-        <footer className="text-center text-black mt-5" style={{  backgroundColor: '#8ecae6'}}>
+        <footer className="text-center text-black mt-5" style={{  backgroundColor: '#ffb703'}}>
           <div className="container p-4">
             <section className="mb-4">
               <a className="btn btn-outline-dark btn-floating m-1" href="#!" role="button"

@@ -191,7 +191,7 @@ function Home() {
     </Row>
   </Container>
   </center>
-  <h1 className="reveal mb-5">Gallery</h1>
+  <h1 className="reveal mb-5" id="gallery">Gallery</h1>
   <div className="row mx-5">
       {imageData.map((image, index) => (
         <div key={index} className="col-6 col-lg-3 col-md-6 mb-4 mb-lg-0 reveal">
@@ -233,7 +233,7 @@ function Home() {
         </div>
       </div>
     </div>
-<div class="container">
+<div class="container" id="pricing">
   <section class="text-center mt-5">
     <h4 class="mb-4 reveal"><strong>Pricing</strong></h4>
     <div class="row gx-lg-5">

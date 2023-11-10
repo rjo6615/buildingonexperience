@@ -41,6 +41,9 @@ function NavbarComponent() {
               <Nav.Link href="#services" className='button-pop-out mx-2' style={linkStyle}>
                 Services
               </Nav.Link>
+              <Nav.Link href="#gallery" className='button-pop-out mx-2' style={linkStyle}>
+                Gallery
+              </Nav.Link>
               <Nav.Link href="#pricing" className='button-pop-out mx-2' style={linkStyle}>
                 Pricing
               </Nav.Link>

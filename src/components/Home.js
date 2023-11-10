@@ -194,7 +194,7 @@ function Home() {
   <h1 className="reveal mb-5" id="gallery">Gallery</h1>
   <div className="row mx-5">
       {imageData.map((image, index) => (
-        <div key={index} className="col-6 col-lg-3 col-md-6 mb-4 mb-lg-0 reveal">
+        <div key={index} className="col-6 col-lg-3 col-md-6 mb-4 mb-lg-0 reveal button-pop-out">
           <img
             src={image.thumbnail}
             className="w-100 shadow-1-strong rounded mb-4"
@@ -207,27 +207,14 @@ function Home() {
       {fullSizeImage && (
         <div className="modal-backdrop fade show" onClick={closeImageModal}></div>
       )}
-
-      <div
-        className={`modal fade ${fullSizeImage ? 'show' : ''}`}
-        style={{ display: fullSizeImage ? 'block' : 'none' }}
-      >
+      <div className={`modal fade ${fullSizeImage ? 'show' : ''}`} style={{ display: fullSizeImage ? 'block' : 'none' }}>
         <div className="modal-dialog modal-dialog-centered" style={{ maxWidth: imageDimensions.width }}>
           <div className="modal-content">
-            <div className="modal-header">
-              <h5 className="modal-title">Full-size Image</h5>
-              <button
-                type="button"
-                className="btn-close"
-                onClick={closeImageModal}
-              />
+            <div className="modal-header custom-close-button">
+              <button type="button" className="btn-close" style={{ border: 'none' }} onClick={closeImageModal} />
             </div>
             <div className="modal-body">
-              <img
-                src={fullSizeImage}
-                className="w-100"
-                alt={fullSizeImage}
-              />
+              <img src={fullSizeImage} className="w-100" alt={fullSizeImage} />
             </div>
           </div>
         </div>

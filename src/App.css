@@ -106,3 +106,12 @@
 .navbar-toggler-icon {
   background-image: url("../src/images/list.svg") !important;
 }
+
+.custom-close-button {
+  position: absolute;
+  right: 10px; /* Adjust the value to fine-tune the button's position */
+  top: 10px; /* Add a top value to align it properly */
+  z-index: 1;
+  background-color: transparent; /* Remove any background color */
+  border: none; /* Remove any border */
+}

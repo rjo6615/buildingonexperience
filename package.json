@@ -2,7 +2,6 @@
   "name": "handymantemplate",
   "version": "0.1.0",
   "private": true,
-  "homepage": "buildingonexperience.com",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-free": "^6.4.2",

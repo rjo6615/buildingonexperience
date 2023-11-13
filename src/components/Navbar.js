@@ -35,7 +35,7 @@ function NavbarComponent() {
           <Navbar.Toggle aria-controls="navbarScroll"  />
           <Navbar.Collapse id="navbarScroll" style={{backgroundColor: 'rgba(3, 4, 94, 1)'}}>
             <Nav className="me-auto my-2 my-lg-0" navbarScroll>
-              <Nav.Link href="/handymantemplate" className='button-pop-out mx-2' style={linkStyle}>
+              <Nav.Link href="/" className='button-pop-out mx-2' style={linkStyle}>
                 Home
               </Nav.Link>
               <Nav.Link href="#services" className='button-pop-out mx-2' style={linkStyle}>

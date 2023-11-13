@@ -12,8 +12,8 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path="http://rjo6615.github.io" element={<Home />} />
-          <Route path="*" element={<Navigate to="http://rjo6615.github.io"/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
     </Router>

@@ -12,8 +12,8 @@ function App() {
     <Router>
         <Navbar />
         <Routes>
-          <Route path="/handymantemplate" element={<Home />} />
-          <Route path="*" element={<Navigate to="/handymantemplate"/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
     </Router>

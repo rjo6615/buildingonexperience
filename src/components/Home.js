@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from 'react';
-import {Card, Container, Row, Button}from 'react-bootstrap';
+import {Card, Container, Row}from 'react-bootstrap';
 import toolsBackground from "../images/background.jpg";
+import profilePic from "../images/profilepic.jpg";
 // import {MDBCarousel, MDBCarouselItem, MDBCarouselCaption} from 'mdb-react-ui-kit';
 
 function Home() {
@@ -79,25 +80,34 @@ function Home() {
         fullSize: 'https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp',
         alt: 'Boat on Calm Water',
       },
-      // Add more image data objects here
     ];
   return (
     <div>
-<section class="">
+<section id='home'>
   <div class="px-4 py-5 px-md-5 text-center text-lg-start" style={{height: "700px", background: 'url(https://www.mrhandyman.com/us/en-us/mr-handyman/_assets/expert-tips/images/Local-blogs-images/mrh-blog-top-15-reasons-to-have-a-handyman-service-on-you2.webp)'}}>
     <div class="container">
       <div class="row gx-lg-5 align-items-center">
         <div class="col-lg-6 mb-5 mb-lg-0 slideInLeft" style={{marginTop: '50px'}}>
-          <h1 class="my-5 display-3 fw-bold ls-tight" style={{color: '#0077B6'}}>
+          <h1 class="my-5 display-3 fw-bold ls-tight" style={{color: '#0077B6', fontFamily: "'Montserrat', 'sans-serif'"}}>
           "Your Home, <br />
             <span style={{color: '#CAF0F8'}}>Our Expertise"</span> <br />
           </h1>          
-          <Button
+          <a href="tel:2036418224">
+            <h4
           className="float-right button-pop-out"
-          style={{ backgroundColor: '#0077B6', borderColor: '#0077B6', color: '#CAF0F8', fontSize: '25px' }}
+          style={{ color: '#CAF0F8', fontSize: '25px' }}
         >
-          Call Us
-        </Button>         
+          Call Us: 203-641-8224 <br />
+          </h4>
+          </a>
+          <a href="mailto:bobernier@att.net">
+          <h4
+          className="float-right button-pop-out"
+          style={{ color: '#CAF0F8', fontSize: '25px' }}
+        >
+          Email Us: bobernier@att.net
+        </h4>    
+        </a>     
         </div>
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="">
@@ -329,12 +339,12 @@ function Home() {
           height: '420px'
           }}>
                 <div class="">
-              <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava2-bg.webp"
+              <img src={profilePic}
                 class="rounded-circle img-fluid" alt="" style={{width: "100px"}} />
             </div>
-            <h4 class="mb-2">John P. Smith</h4>
+            <h4 class="mb-2">Robert B. Obernier</h4>
             <p class="text-muted mb-4">Owner <span class="mx-2">|</span>
-                Handyman Template</p>
+                Building on Experience</p>
             <center>
             <button type="button" class="btn btn-rounded btn-lg button-pop-out" style={{maxWidth: '200px', backgroundColor: '#0077B6', color: '#CAF0F8'}}>
               Contact Us

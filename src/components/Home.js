@@ -124,7 +124,7 @@ function Home() {
   <Row className="d-flex flex-wrap justify-content-center">
     <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
-  <Card.Header className="fa-solid fa-screwdriver py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
+  <Card.Header className="fa-solid fa-screwdriver py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: 'white'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Repairs</Card.Title>
     <Card.Text>
@@ -143,7 +143,7 @@ function Home() {
 </div>
 <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
-<Card.Header className="fa-solid fa-paint-roller py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
+<Card.Header className="fa-solid fa-paint-roller py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: 'white'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Painting</Card.Title>
     <Card.Text>
@@ -162,7 +162,7 @@ function Home() {
 </div>
 <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
-<Card.Header className="fa-solid fa-wrench py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
+<Card.Header className="fa-solid fa-wrench py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: 'white'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Plumbing</Card.Title>
     <Card.Text>
@@ -181,7 +181,7 @@ function Home() {
 </div>
 <div className="col-xl-3 col-lg-6 col-md-6 col-sm-8">
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
-<Card.Header className="fa-solid fa-plug py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
+<Card.Header className="fa-solid fa-plug py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: 'white'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
     <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Electric</Card.Title>
     <Card.Text>
@@ -230,77 +230,6 @@ function Home() {
         </div>
       </div>
     </div>
-<div class="container" id="pricing">
-  <section class="text-center mt-5">
-    <h4 class="mb-4 reveal"><strong>Pricing</strong></h4>
-    <div class="row gx-lg-5">
-      <div class="col-lg-3 col-md-6 mb-4 reveal">
-        <div class="card" style={{borderColor: '#03045E'}}>
-          <div class="card-header bg-white py-3">
-            <p class="text-uppercase small mb-2"><strong>General Repairs</strong></p>
-            <h5 class="mb-0">$75 show up fee + $100/hour</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-            </ul>
-          </div>        
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4 reveal">
-        <div class="card" style={{borderColor: '#03045E'}}>
-          <div class="card-header bg-white py-3">
-            <p class="text-uppercase small mb-2"><strong>Painting</strong></p>
-            <h5 class="mb-0">$75 show up fee + $80/hour</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4 reveal">
-        <div class="card" style={{borderColor: '#03045E'}}>
-          <div class="card-header bg-white py-3">
-            <p class="text-uppercase small mb-2"><strong>Plumbing</strong></p>
-            <h5 class="mb-0">$75 show up fee + $120/hour</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4 reveal">
-        <div class="card" style={{borderColor: '#03045E'}}>
-          <div class="card-header bg-white py-3">
-            <p class="text-uppercase small mb-2"><strong>Electric</strong></p>
-            <h5 class="mb-0">$75 show up fee + $150/hour</h5>
-          </div>
-          <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-              <li class="list-group-item">Feature</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
 <section class="text-center" id='aboutus'>
   <div class="p-5 bg-image" style={{
         backgroundImage: 'url(' + toolsBackground + ')',

@@ -113,9 +113,6 @@ function NavbarComponent() {
               <Nav.Link className='button-pop-out mx-2' style={linkStyle} onClick={() => customScroll('gallery')}>
                 Gallery
               </Nav.Link>
-              <Nav.Link className='button-pop-out mx-2' style={linkStyle} onClick={() => customScroll('pricing')}>
-                Pricing
-              </Nav.Link>
               <Nav.Link className='button-pop-out mx-2' style={linkStyle} onClick={() => customScroll('aboutus')}>
                 About Us
               </Nav.Link>

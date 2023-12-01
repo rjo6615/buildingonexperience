@@ -90,12 +90,12 @@ function Home() {
         <div class="col-lg-6 mb-5 mb-lg-0 slideInLeft" style={{marginTop: '50px'}}>
           <h1 class="my-5 display-3 fw-bold ls-tight" style={{color: '#0077B6', fontFamily: "'Montserrat', 'sans-serif'"}}>
           "Your Home, <br />
-            <span style={{color: '#CAF0F8'}}>Our Expertise"</span> <br />
+            <span style={{color: 'white'}}>Our Expertise"</span> <br />
           </h1>          
           <a href="tel:2036418224">
             <h4
           className="float-right button-pop-out"
-          style={{ color: '#CAF0F8', fontSize: '25px' }}
+          style={{ color: 'white', fontSize: '25px' }}
         >
           Call Us: 203-641-8224 <br />
           </h4>
@@ -103,7 +103,7 @@ function Home() {
           <a href="mailto:bobernier@att.net">
           <h4
           className="float-right button-pop-out"
-          style={{ color: '#CAF0F8', fontSize: '25px' }}
+          style={{ color: 'white', fontSize: '25px' }}
         >
           Email Us: bobernier@att.net
         </h4>    
@@ -126,16 +126,16 @@ function Home() {
       <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
   <Card.Header className="fa-solid fa-screwdriver py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#023047', fontSize: '30px', fontFamily: ""}} className='mb-4'>Repairs</Card.Title>
+    <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Repairs</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 3</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 4</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 5</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 6</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 7</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
       </ul>
     </Card.Text>
   </Card.Body>
@@ -145,16 +145,16 @@ function Home() {
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
 <Card.Header className="fa-solid fa-paint-roller py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#023047', fontSize: '30px', fontFamily: ""}} className='mb-4'>Painting</Card.Title>
+    <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Painting</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 3</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 4</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 5</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 6</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 7</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
       </ul>
     </Card.Text>
   </Card.Body>
@@ -164,16 +164,16 @@ function Home() {
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
 <Card.Header className="fa-solid fa-wrench py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#023047', fontSize: '30px', fontFamily: ""}} className='mb-4'>Plumbing</Card.Title>
+    <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Plumbing</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 3</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 4</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 5</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 6</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 7</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
       </ul>
     </Card.Text>
   </Card.Body>
@@ -183,16 +183,16 @@ function Home() {
 <Card className="text-black mt-4 mx-3" style={{ width: '18rem', height: '30rem', backgroundColor: 'white', borderStyle: 'none' }}>
 <Card.Header className="fa-solid fa-plug py-5" style={{fontSize: '100px', backgroundColor: '#03045E', color: '#CAF0F8'}}></Card.Header>
   <Card.Body className="d-flex flex-column">
-    <Card.Title style={{color: '#023047', fontSize: '30px', fontFamily: ""}} className='mb-4'>Electric</Card.Title>
+    <Card.Title style={{color: 'black', fontSize: '30px', fontFamily: ""}} className='mb-4'>Electric</Card.Title>
     <Card.Text>
       <ul className='mb-5'>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 1</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 2</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 3</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 4</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 5</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 6</li>
-        <li style={{ listStyle: "disc", color: '#023047' }}>Feature 7</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 1</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 2</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 3</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 4</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 5</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 6</li>
+        <li style={{ listStyle: "disc", color: 'black' }}>Feature 7</li>
       </ul>
     </Card.Text>
   </Card.Body>

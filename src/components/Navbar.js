@@ -122,7 +122,7 @@ function NavbarComponent() {
             </Nav>
             <Button
               className="float-right button-pop-out"
-              style={{ backgroundColor: '#0077B6', borderColor: 'transparent', color: '#CAF0F8' }}
+              style={{ backgroundColor: '#0077B6', borderColor: 'transparent', color: 'white' }}
               onClick={handleShow}
             >
               Contact Us
